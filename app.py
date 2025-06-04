@@ -12,7 +12,7 @@ st.sidebar.title("Menú de Navegación")
 page = st.sidebar.selectbox("Secciones", ["Inicio", "Contexto Big Data", "CRUD de Ejemplo"])
 
 if page == "Inicio":
-    st.title("Sistema DataHub – INFB6052")
+    st.title("Sistema DataHub – Actividad 1")
     st.image(
         "https://www.ctisoluciones.com/sites/default/files/2024-10/Beneficios-Big-Data.jpg",
         use_container_width=True
@@ -20,7 +20,7 @@ if page == "Inicio":
     st.markdown("""
     **¡Bienvenido al Sistema DataHub!**
 
-    Este prototipo demostrativo ha sido desarrollado utilizando **Streamlit** y **MongoDB** para ilustrar conceptos clave de Big Data y la gestión básica de datos.
+    Este sistema ha sido desarrollado utilizando **Streamlit** y **MongoDB** para ilustrar conceptos clave de Big Data y la gestión básica de datos.
 
     Utilice el menú de navegación lateral para explorar las distintas secciones:
     - **Contexto Big Data:** Descubra los fundamentos y la importancia del Big Data en la actualidad.
